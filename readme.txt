@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Big Cloud Media, Payfirma
+Contributors: Payfirma
 Tags: woocommerce, credit card payments, Payfirma, payment gateway
 Requires at least: 3.5
 Tested up to: 3.6.1
@@ -20,7 +20,7 @@ Take payments using the Payfirma Payment Gateway and keep track of them in your 
 
 1. Upload Payfirma_Woo_Gateway to the /wp-content/plugins/ directory or install it from the Plugin uploader
 1. Activate the plugin through the Plugins menu in the WordPress administrator dashboard
-1. Visit the settings page under WooCommerce > Settings > Payment Gateways to add your API key and Merchant ID and to enable the Gateway.
+1. Visit the settings page under WooCommerce > Settings > Payment Gateways to add your iframe access token and to enable the Gateway.
 
 == Frequently Asked Questions ==
 
@@ -36,32 +36,10 @@ Once your WooCommerce API info is entered and the gateway is enabled, it will au
 
 = Is it secure? =
 
-When using an SSL connection, your customer's payment data is secure.
-
 No credit card data is stored locally and all payments through this gateway are processed on Payfirma's secure servers.
 
-A valid SSL connection is required in order to secure the interaction between your site and the Payfirma servers.
-
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
 
 == Changelog ==
 
-= 3.1 = 
-* update plugin with V2 API 
-* change key & merchant_id to Client Id & Client Secret
-
-= 2.1 =
-* Bug fixes
-* General code review and cleanup
-* Added check for enabled "Force HTTP after checkout" option before validating check out page SSL connection.
-* Updated error processing and display on gateway page.
-
-= 1.0 =
-* This is the first version of this plugin
+= 4.0 =
+* Integrate with Payfirma iframe application
