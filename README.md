@@ -65,15 +65,15 @@ This is where you will be able to enter in your assigned Iframe Access Token, as
 
 
 
-## To get Client ID and Client Secret
+## To get Iframe Access Token
 Please, Login at PayHQ ang go to Settings.
-[PayHQ Settings](https://hq.payfirma.com/#/settings/ecommerce)
+[PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
 
-![Screen Shot 2021-04-01 at 9 42 48 AM](https://user-images.githubusercontent.com/67436452/113326535-a55a2a00-92ce-11eb-93e1-e01059b9203d.png)
+![Screen Shot 2022-02-09 at 3 24 04 PM](https://user-images.githubusercontent.com/67436452/153307548-d3905b91-10dd-45d7-be6a-531965830272.png)
 
-### Add keys
 
-![Screen Shot 2021-04-01 at 9 43 30 AM](https://user-images.githubusercontent.com/67436452/113326600-bd31ae00-92ce-11eb-80c0-e6d4636d630e.png)
 
-You can get your Client ID & Clinet Secret.
+### Create Iframe Access Token
+
+![Screen Shot 2022-02-09 at 3 24 25 PM](https://user-images.githubusercontent.com/67436452/153307684-87572649-d819-43fa-acab-19f53b6fb226.png)
 
