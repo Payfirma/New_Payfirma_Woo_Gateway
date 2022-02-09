@@ -15,7 +15,7 @@
 
 ## Installation
 
-[Payfirma_Woo_Gateway Plugin Download](https://github.com/Payfirma/Payfirma_Woo_Gateway/tree/main/download)
+[Payfirma_Woo_Gateway Plugin Download](https://github.com/Payfirma/New_Payfirma_Woo_Gateway/blob/master/download/Payfirma_Woo_Gateway.zip)
 
 
 
