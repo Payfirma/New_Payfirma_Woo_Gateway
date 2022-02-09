@@ -60,8 +60,7 @@ Go to Manage
 This is where you will be able to enter in your assigned Client ID and Client Secret, as provided through PayHQ Settings.
 
 [PayHQ Settings](https://hq.payfirma.com/#/settings/ecommerce)
-
-![Screen Shot 2021-04-01 at 9 37 04 AM](https://user-images.githubusercontent.com/67436452/113325971-f0c00880-92cd-11eb-82bd-c84516cab7fe.png)
+![Screen Shot 2022-02-09 at 3 18 15 PM](https://user-images.githubusercontent.com/67436452/153306906-11892469-7f31-4edf-a8e1-c902fd320298.png)
 
 
 
