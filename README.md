@@ -17,7 +17,7 @@
 
 [Payfirma_Woo_Gateway Plugin Download](https://github.com/Payfirma/New_Payfirma_Woo_Gateway/blob/master/download/Payfirma_Woo_Gateway.zip)
 
-![](https://user-images.githubusercontent.com/67436452/153296717-3f6af80f-7a5f-4fe0-850c-7e3332c022be.png)
+[![](https://user-images.githubusercontent.com/67436452/153296717-3f6af80f-7a5f-4fe0-850c-7e3332c022be.png)](#)
 
 The first step in your integration will be installing WooCommerce to your WordPress storefront.
 
