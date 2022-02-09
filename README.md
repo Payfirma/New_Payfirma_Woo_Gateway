@@ -69,7 +69,8 @@ This is where you will be able to enter in your assigned Iframe Access Token, as
 Please, Login at PayHQ ang go to Settings.
 [PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
 
-![Screen Shot 2022-02-09 at 3 24 04 PM](https://user-images.githubusercontent.com/67436452/153307548-d3905b91-10dd-45d7-be6a-531965830272.png)
+
+![Screen Shot 2022-02-09 at 3 23 02 PM](https://user-images.githubusercontent.com/67436452/153307893-f063df7d-8459-42fd-876c-eb364c9fc489.png)
 
 
 
