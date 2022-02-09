@@ -57,9 +57,10 @@ Go to Payments tab within Settings,
 
 Go to Manage 
 
-This is where you will be able to enter in your assigned Client ID and Client Secret, as provided through PayHQ Settings.
+This is where you will be able to enter in your assigned Iframe Access Token, as provided through PayHQ Settings.
 
-[PayHQ Settings](https://hq.payfirma.com/#/settings/ecommerce)
+[PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
+
 ![Screen Shot 2022-02-09 at 3 18 15 PM](https://user-images.githubusercontent.com/67436452/153306906-11892469-7f31-4edf-a8e1-c902fd320298.png)
 
 
