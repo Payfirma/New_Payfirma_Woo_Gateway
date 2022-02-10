@@ -55,13 +55,14 @@ Go to Payments tab within Settings,
 
 ![Screen Shot 2021-04-01 at 9 35 08 AM](https://user-images.githubusercontent.com/67436452/113325663-958e1600-92cd-11eb-937d-925813e497ec.png)
 
+
 Go to Manage 
 
 This is where you will be able to enter in your assigned Iframe Access Token, as provided through PayHQ Settings.
 
 [PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
 
-![Screen Shot 2022-02-09 at 3 18 15 PM](https://user-images.githubusercontent.com/67436452/153306906-11892469-7f31-4edf-a8e1-c902fd320298.png)
+![Screen Shot 2022-02-09 at 3 18 15 PM](https://user-images.githubusercontent.com/67436452/153472764-1a6b8760-e63e-434b-ad2b-7437050e4f12.png)
 
 
 
