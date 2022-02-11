@@ -93,9 +93,11 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                 $this->api_info_valid = 'true';
             else:
                 $this->api_info_valid = 'false';
+                update_option( 'woocommerce_payfirma_gateway_keys_val', array('status'=>'false','iframe_access_token'=>$this->iframe_access_token));
             endif;
         else:
             $this->api_info_valid = 'false';
+            update_option( 'woocommerce_payfirma_gateway_keys_val', array('status'=>'false','iframe_access_token'=>$this->iframe_access_token));
         endif;
 
         // check if currency is valid
@@ -219,6 +221,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                                 ?>
                                 document.querySelector('#cardtoken-result-error').innerText = "";
                                 document.querySelector('#cardtoken-result-success').innerText = "Test Sale: Success to validate access token with a Test transaction.";
+                                alert('Success to validate access token with a Test transaction\nPlease, Save Changes');
                             },
                             error:function(error){
                                 <?php
@@ -226,6 +229,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                                 ?>
                                 document.querySelector('#cardtoken-result-success').innerText = "";
                                 document.querySelector('#cardtoken-result-error').innerText = "Test Sale: Failed to validate your iframe access token.";
+                               
                             }
                         });
 
@@ -233,6 +237,9 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                         // There was an error tokenizing your card data
                         document.querySelector('#cardtoken-result-success').innerText = "";
                         document.querySelector('#cardtoken-result-error').innerText = "Generate Card: Failed to validate your iframe access token.";
+                        <?php
+                            $this->enabled = false;
+                        ?>
                     })
                 });
             });
