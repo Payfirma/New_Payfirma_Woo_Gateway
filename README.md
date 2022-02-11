@@ -15,7 +15,12 @@
 
 ## Installation
 
-[Payfirma_Woo_Gateway Plugin Download](https://github.com/Payfirma/Payfirma_Woo_Gateway/tree/main/download)
+### [Click here to download a new Payfirma_Woo_Gateway](https://github.com/Payfirma/New_Payfirma_Woo_Gateway/blob/master/download/Payfirma_Woo_Gateway.zip)
+
+### if you already installed the previous version, please delete the previous version and reinstall with the new version(4.0)
+
+
+![Screen Shot 2022-02-09 at 3 13 07 PM](https://user-images.githubusercontent.com/67436452/153306571-5a356d01-5a67-4789-b195-eacb08c3f0b1.png)
 
 
 
@@ -54,25 +59,27 @@ Go to Payments tab within Settings,
 
 ![Screen Shot 2021-04-01 at 9 35 08 AM](https://user-images.githubusercontent.com/67436452/113325663-958e1600-92cd-11eb-937d-925813e497ec.png)
 
+
 Go to Manage 
 
-This is where you will be able to enter in your assigned Client ID and Client Secret, as provided through PayHQ Settings.
+This is where you will be able to enter in your assigned Iframe Access Token, as provided through PayHQ Settings.
 
-[PayHQ Settings](https://hq.payfirma.com/#/settings/ecommerce)
+[PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
 
-![Screen Shot 2021-04-01 at 9 37 04 AM](https://user-images.githubusercontent.com/67436452/113325971-f0c00880-92cd-11eb-82bd-c84516cab7fe.png)
+![Screen Shot 2022-02-09 at 3 18 15 PM](https://user-images.githubusercontent.com/67436452/153472764-1a6b8760-e63e-434b-ad2b-7437050e4f12.png)
 
 
 
-## To get Client ID and Client Secret
+## To get Iframe Access Token
 Please, Login at PayHQ ang go to Settings.
-[PayHQ Settings](https://hq.payfirma.com/#/settings/ecommerce)
+[PayHQ Settings](https://hq.payfirma.com/#/settings/hpp)
 
-![Screen Shot 2021-04-01 at 9 42 48 AM](https://user-images.githubusercontent.com/67436452/113326535-a55a2a00-92ce-11eb-93e1-e01059b9203d.png)
 
-### Add keys
+![Screen Shot 2022-02-09 at 3 23 02 PM](https://user-images.githubusercontent.com/67436452/153307893-f063df7d-8459-42fd-876c-eb364c9fc489.png)
 
-![Screen Shot 2021-04-01 at 9 43 30 AM](https://user-images.githubusercontent.com/67436452/113326600-bd31ae00-92ce-11eb-80c0-e6d4636d630e.png)
 
-You can get your Client ID & Clinet Secret.
+
+### Create Iframe Access Token
+
+![Screen Shot 2022-02-09 at 3 24 25 PM](https://user-images.githubusercontent.com/67436452/153307684-87572649-d819-43fa-acab-19f53b6fb226.png)
 
