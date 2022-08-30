@@ -3,7 +3,7 @@
  * Plugin Name: Payfirma Payments for WooCommerce
  * Plugin URI: https://www.payfirma.com/woocommerce
  * Description: Payfirma’s WooCommerce plugin has arrived for all of your payment needs. Start accepting credit cards on your WooCommerce 2.5+ site, with a valid SSL connection (sorry, non-self-signed only) and cURL activated on your server, you will be able to process payments using your PayHQ Merchant account.
- * Version: 4.0
+ * Version: 4.1
  * Author: Payfirma
  * Author URI: https://www.payfirma.com
  * License: GPL2
