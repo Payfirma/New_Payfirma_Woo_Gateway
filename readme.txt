@@ -40,6 +40,8 @@ No credit card data is stored locally and all payments through this gateway are 
 
 
 == Changelog ==
+= 4.1 =
+* Fixed with css
 
 = 4.0 =
 * Integrate with Payfirma iframe application

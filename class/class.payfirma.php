@@ -286,9 +286,9 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                 </div>
 
                 <br/>
-                <div id="cardNumber_container" class="inputFieldContainer"></div> 
-                <div id="cardExpiry_container" class="inputFieldContainer"></div> 
-                <div id="cardCvv_container" class="inputFieldContainer"></div>   
+                <div id="cardNumber_container" class="inputFieldContainer" style="height:40px;"></div> 
+                <div id="cardExpiry_container" class="inputFieldContainer" style="height:40px;"></div> 
+                <div id="cardCvv_container" class="inputFieldContainer" style="height:40px;"></div>
 
                 <br/>
                 <div id="cardtoken-result-error" style="color:red;"></div>
@@ -431,9 +431,9 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
        global $woocommerce;
 
         echo'
-            <div id="cardNumber_container" class="inputFieldContainer"></div> 
-            <div id="cardExpiry_container" class="inputFieldContainer"></div> 
-            <div id="cardCvv_container" class="inputFieldContainer"></div>
+            <div id="cardNumber_container" class="inputFieldContainer" style="height:40px;"></div> 
+            <div id="cardExpiry_container" class="inputFieldContainer" style="height:40px;"></div> 
+            <div id="cardCvv_container" class="inputFieldContainer" style="height:40px;"></div>
             <div id ="cardtoken-error" class="card-error"> </div>
             <br/>
             <img src="'.plugin_dir_url( __DIR__ ) .'/img/pf13-logo.png" />
