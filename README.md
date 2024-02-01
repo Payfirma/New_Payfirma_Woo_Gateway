@@ -3,6 +3,9 @@
 # Plugin Name: Payfirma_Woo_Gateway
 
 == Changelog ==
+= 4.2 = 
+* Updated the order place button about conflict with other payment options.
+* Update MerrcoPayfirma logo
 
 = 4.1 = 
 * Fixed with css 

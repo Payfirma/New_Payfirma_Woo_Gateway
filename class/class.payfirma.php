@@ -436,7 +436,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
             <div id="cardCvv_container" class="inputFieldContainer" style="height:40px;"></div>
             <div id ="cardtoken-error" class="card-error"> </div>
             <br/>
-            <img src="'.plugin_dir_url( __DIR__ ) .'/img/pf13-logo.png" />
+            <img src="'.plugin_dir_url( __DIR__ ) .'/img/merrcopayfirma-lg.png"/>
         ';
 
         ?> 
@@ -480,23 +480,28 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
 
                     jQuery(document).on('click', '.payfirma_submit', function(e){
                         e.preventDefault();      
-                      
-                        payfirmaObject.tokenize().then((response)=>{
-                            document.cookie = 'tempCardToken=' + response.payment_token + '; path=/;';
-                            document.querySelector('#cardtoken-error').innerText = "";
-                            tokenData = response.payment_token;
+                        if (jQuery('input[name="payment_method"]:checked').val() == 'payfirma_gateway') {
+                            payfirmaObject.tokenize().then((response)=>{
+                                document.cookie = 'tempCardToken=' + response.payment_token + '; path=/;';
+                                document.querySelector('#cardtoken-error').innerText = "";
+                                tokenData = response.payment_token;
+                                jQuery( 'form.checkout' ).submit();
+                            }).catch(error => {
+                                var resultError = Object.entries(error);
+
+                                //Error: Request failed with status code 400
+                                if(resultError.length > 0) {
+                                    document.cookie = 'tempCardToken=' + '' + '; path=/;';
+                                    document.querySelector('#cardtoken-error').innerText = "Please, check your card information.";
+                                }
+
+                                return false;
+                            })
+                        } else {
+                            var noCardToken = "12345678901234567890"
+                            document.cookie = 'tempCardToken=' + noCardToken + '; path=/;';
                             jQuery( 'form.checkout' ).submit();
-                        }).catch(error => {
-                            var resultError = Object.entries(error);
-
-                            //Error: Request failed with status code 400
-                            if(resultError.length > 0) {
-                                document.cookie = 'tempCardToken=' + '' + '; path=/;';
-                                document.querySelector('#cardtoken-error').innerText = "Please, check your card information.";
-                            }
-
-                            return false;
-                        })
+                        }
                     })
                 });
             </script>
