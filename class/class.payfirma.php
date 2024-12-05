@@ -478,7 +478,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                     payfirmaObject.ExpiryField().render(options.fields.cardExpiry.selector);
                     payfirmaObject.CVVField().render(options.fields.cardCvv.selector);
 
-                    jQuery(document).on('click', '.payfirma_submit', function(e){
+                    jQuery(document).on('click', '.payfirma_submit, #place_order', function(e){
                         e.preventDefault();      
                         if (jQuery('input[name="payment_method"]:checked').val() == 'payfirma_gateway') {
                             payfirmaObject.tokenize().then((response)=>{
