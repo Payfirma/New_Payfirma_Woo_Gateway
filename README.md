@@ -2,7 +2,14 @@
 
 # Plugin Name: Payfirma_Woo_Gateway
 
+## delete the downloads folder
+## run zip -r <name you want to give>.zip .
+
+
 == Changelog ==
+= 4.3 =
+* Fixed customer payment page from order details
+
 = 4.2 = 
 * Updated the order place button about conflict with other payment options.
 * Update MerrcoPayfirma logo

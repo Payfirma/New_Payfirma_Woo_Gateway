@@ -40,6 +40,9 @@ No credit card data is stored locally and all payments through this gateway are 
 
 
 == Changelog ==
+= 4.3 =
+* Fixed customer payment page from order details
+
 = 4.2 = 
 * Updated the order place button about conflict with other payment options.
 * Update MerrcoPayfirma logo
