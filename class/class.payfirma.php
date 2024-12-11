@@ -485,7 +485,23 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                                 document.cookie = 'tempCardToken=' + response.payment_token + '; path=/;';
                                 document.querySelector('#cardtoken-error').innerText = "";
                                 tokenData = response.payment_token;
-                                jQuery( 'form.checkout' ).submit();
+
+                                let isPayfirmaSubmit = jQuery('.payfirma_submit').is(':focus');
+                                let isPlaceOrder = jQuery('#place_order').is(':focus');
+                                
+                                if (isPayfirmaSubmit) {
+                                    // console.log("Submitted via .payfirma_submit button");
+                                    jQuery( 'form.checkout' ).submit();
+                                    // Add your custom logic for .payfirma_submit here
+                                } else if (isPlaceOrder) {
+                                    // console.log("Submitted via #place_order button");
+                                    jQuery('#order_review').submit();
+                                    // Add your custom logic for #place_order here
+                                } else {
+                                    console.log("Form submitted without the specified buttons being clicked.");
+                                }
+
+
                             }).catch(error => {
                                 var resultError = Object.entries(error);
 
