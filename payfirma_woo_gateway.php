@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Payfirma Payments for WooCommerce
- * Plugin URI: https://www.payfirma.com/woocommerce
- * Description: Payfirma’s WooCommerce plugin has arrived for all of your payment needs. Start accepting credit cards on your WooCommerce 2.5+ site, with a valid SSL connection (sorry, non-self-signed only) and cURL activated on your server, you will be able to process payments using your PayHQ Merchant account.
+ * Plugin Name: KORT Payments for WooCommerce
+ * Plugin URI: https://github.com/Payfirma/New_Payfirma_Woo_Gateway
+ * Description: KORT Payment's WooCommerce plugin has arrived for all of your payment needs. Start accepting credit cards on your WooCommerce 2.5+ site, with a valid SSL connection (sorry, non-self-signed only) and cURL activated on your server, you will be able to process payments using your PayHQ Merchant account.
  * Version: 4.2
- * Author: Payfirma
- * Author URI: https://www.payfirma.com
+ * Author: KORT Payments
+ * Author URI: https://www.kortpayments.com
  * License: GPL2
  */
 
 
 /**
- * Perform plugin environment checks before allowing Payfirma Gateway to be activated.
+ * Perform plugin environment checks before allowing KORT Gateway to be activated.
  */
 function payfirma_woo_requires() {
 
