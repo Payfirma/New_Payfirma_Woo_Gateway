@@ -1,12 +1,15 @@
-# Payfirma-Woocommerce-Plugin
+# KORT-Payments-Woocommerce-Plugin
 
-# Plugin Name: Payfirma_Woo_Gateway
+# Plugin Name: KORT_Woo_Gateway
 
 ## delete the downloads folder
 ## run zip -r <name you want to give>.zip .
 
 
 == Changelog ==
+= Tuesday April 22nd 2024 =
+* Rebrand from Payfirma -> KORT Payments
+
 = 4.3 =
 * Fixed customer payment page from order details
 
@@ -27,7 +30,7 @@
 
 ## Installation
 
-### [Click here to download a new Payfirma_Woo_Gateway](https://github.com/Payfirma/New_Payfirma_Woo_Gateway/blob/master/download/Payfirma_Woo_Gateway.zip)
+### [Click here to download a new KORT_Woo_Gateway](https://github.com/Payfirma/New_Payfirma_Woo_Gateway/blob/master/download/Payfirma_Woo_Gateway.zip)
 
 ### if you already installed the previous version, please delete the previous version and reinstall with the new version(4.1)
 
@@ -46,7 +49,7 @@ Add New.
 ![1](https://user-images.githubusercontent.com/67436452/113324599-282db580-92cc-11eb-8ddd-f895eda8fe55.png)
 
 
-Under the Install Plugins header, you’ll find several options; the second, Upload, will enable you to select your .zip of the Payfirma WooCommerce plugin. Click on the Choose File button, and find your .zip of the Payfirma WooCommerce plugin.
+Under the Install Plugins header, you’ll find several options; the second, Upload, will enable you to select your .zip of the KORT WooCommerce plugin. Click on the Choose File button, and find your .zip of the KORT WooCommerce plugin.
 
 ![2](https://user-images.githubusercontent.com/67436452/113324873-7a6ed680-92cc-11eb-99a4-0ede994c18c2.png)
 

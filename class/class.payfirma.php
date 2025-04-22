@@ -52,8 +52,8 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
         // define variables
         $this->id = 'payfirma_gateway';
         $this->has_fields = true; //  – puts payment form fields into payment options on payment page.
-        $this->method_title = __('Payfirma', 'woocommerce'); //– Title of the payment method shown on the admin page.
-        $this->method_description = 'Use Payfirma to process your payments.'; //– Description for the payment method shown on the admin page.
+        $this->method_title = __('KORT Payments', 'woocommerce'); //– Title of the payment method shown on the admin page.
+        $this->method_description = 'Use KORT Payments to process your payments.'; //– Description for the payment method shown on the admin page.
         // load the settings
         $this->init_form_fields();
         $this->init_settings();
@@ -251,8 +251,8 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
         echo $this->disablegateway_js;
 
         ?>
-        <h3><?php _e('Payfirma Payments for WooCommerce', 'woocommerce'); ?></h3>
-        <p><?php _e('Payfirma works by processing the <strong>credit card</strong> payment via your Payfirma HQ account.', 'woocommerce'); ?></p>
+        <h3><?php _e('KORT Payments for WooCommerce', 'woocommerce'); ?></h3>
+        <p><?php _e('KORT Payments works by processing the <strong>credit card</strong> payment via your PayHQ account.', 'woocommerce'); ?></p>
             <table class="form-table">
                 <?php
 
@@ -406,14 +406,14 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
             'sending_receipt' => array(
                 'title' => __('Sending Receipt', 'woocommerce'),
                 'type' => 'checkbox',
-                'label' => __('Sending Receipt via Payfirma', 'woocommerce'),
+                'label' => __('Sending Receipt via KORT Payments', 'woocommerce'),
                 'default' => 'yes'
             ),
 
             'enabled' => array(
                 'title' => __('Enable/Disable', 'woocommerce'),
                 'type' => 'checkbox',
-                'label' => __('Enable Payfirma Payment', 'woocommerce'),
+                'label' => __('Enable KORT Payment', 'woocommerce'),
                 'default' => 'no'
             ),
         );
@@ -436,7 +436,10 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
             <div id="cardCvv_container" class="inputFieldContainer" style="height:40px;"></div>
             <div id ="cardtoken-error" class="card-error"> </div>
             <br/>
-            <img src="'.plugin_dir_url( __DIR__ ) .'/img/merrcopayfirma-lg.png"/>
+            
+            <div style="overflow: hidden; height: 15px; position: relative;">
+                <img src="'.plugin_dir_url( __DIR__ ) .'/img/powered-by-kort.svg" style="position: absolute; top: -85px; height: 120px;" />
+            </div>
         ';
 
         ?> 
