@@ -9,6 +9,12 @@ if (!defined('ABSPATH')) exit; // Exit if accessed directly
 add_action('woocommerce_checkout_process', 'payfirma_checkout_field_checks');
 
 function payfirma_checkout_field_checks() {
+    // Only run if Payfirma is the selected payment method
+    if (!isset($_POST['payment_method']) || $_POST['payment_method'] !== 'payfirma_gateway') {
+        return;
+    }
+
+    // Validate the card token
     if (!isset($_COOKIE['tempCardToken']) ||  strlen($_COOKIE['tempCardToken']) != 20){
         unset($_COOKIE['tempCardToken']); 
         wc_add_notice( 'Please check your <strong>Credit Card information</strong>.', $notice_type = 'error' );
