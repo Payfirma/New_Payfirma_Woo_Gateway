@@ -7,6 +7,7 @@
 
 
 == Changelog ==
+
 = 4.4 =
 * Rebrand from Payfirma -> KORT Payments, fixed version check bug preventing activation for woocommerce version 10.0.0+
 
