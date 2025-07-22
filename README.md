@@ -7,8 +7,8 @@
 
 
 == Changelog ==
-= Tuesday April 22nd 2024 =
-* Rebrand from Payfirma -> KORT Payments
+= 4.4 =
+* Rebrand from Payfirma -> KORT Payments, fixed version check bug preventing activation for woocommerce version 10.0.0+
 
 = 4.3 =
 * Fixed customer payment page from order details
