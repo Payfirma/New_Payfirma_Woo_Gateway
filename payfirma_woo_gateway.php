@@ -73,7 +73,7 @@ function payfirma_woo_requires() {
          * Automatically deactivates Payfirma Woo Gateway if active WooCommerce is an unsupported version #.
          */
 
-        if( get_woo_version() < $req_woocommerce_version){
+        if( version_compare( get_woo_version(), $req_woocommerce_version, '<' )){
 
             deactivate_plugins( $plugin );
             wp_die( "<strong>".$plugin_data['Name']."</strong> requires <strong> WooCommerce</strong> to be Version ".$req_woocommerce_version." or above, and has been deactivated! Please install and activate WooCommerce ".$req_woocommerce_version." or above to use ".$plugin_data['Name']." again.<br /><br />Back to the WordPress <a href='".get_admin_url(null, 'plugins.php')."'>Plugins page</a>." );
