@@ -3,7 +3,7 @@
  * Plugin Name: KORT Payments for WooCommerce
  * Plugin URI: https://github.com/Payfirma/New_Payfirma_Woo_Gateway
  * Description: KORT Payment's WooCommerce plugin has arrived for all of your payment needs. Start accepting credit cards on your WooCommerce 2.5+ site, with a valid SSL connection (sorry, non-self-signed only) and cURL activated on your server, you will be able to process payments using your PayHQ Merchant account.
- * Version: 4.4
+ * Version: 4.5
  * Author: KORT Payments
  * Author URI: https://www.kortpayments.com
  * License: GPL2
