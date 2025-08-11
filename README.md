@@ -72,6 +72,8 @@ Please, Login at PayHQ and go to Settings.
 ---
 
 ## Changelog
+### Version 4.5
+- Fixed Safari compatibility issue with pay button submission by replacing unreliable `:focus` detection with `currentTarget` approach
 
 ### Version 4.5
 - Fixed issue where credit card fields were validated even when PayFirma was not the selected payment method.
@@ -101,5 +103,5 @@ Please, Login at PayHQ and go to Settings.
 
 ## Development Notes
 - Delete contents of the download folder `rm -rf download/*`
-- Run `zip -r download/New_Payfirma_Woo_Gateway.zip . -x "download/*"`
+- Create new zip `zip -r download/New_Payfirma_Woo_Gateway.zip . -x "download/*"`
 

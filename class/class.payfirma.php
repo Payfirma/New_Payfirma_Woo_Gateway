@@ -495,8 +495,9 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                                 document.querySelector('#cardtoken-error').innerText = "";
                                 tokenData = response.payment_token;
 
-                                let isPayfirmaSubmit = jQuery('.payfirma_submit').is(':focus');
-                                let isPlaceOrder = jQuery('#place_order').is(':focus');
+                                let clickedElement = jQuery(e.currentTarget);
+                                let isPayfirmaSubmit = clickedElement.hasClass('payfirma_submit');
+                                let isPlaceOrder = clickedElement.is('#place_order');
                                 
                                 if (isPayfirmaSubmit) {
                                     // console.log("Submitted via .payfirma_submit button");
