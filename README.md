@@ -74,6 +74,7 @@ Please, Login at PayHQ and go to Settings.
 ## Changelog
 ### Version 4.7
 - Improved button detection reliability by moving button identification logic before async operations to prevent currentTarget changes
+- Changed credit card input field text color from red to black for better user experience
 
 ### Version 4.6
 - Fixed Safari compatibility issue with pay button submission by replacing unreliable `:focus` detection with `currentTarget` approach

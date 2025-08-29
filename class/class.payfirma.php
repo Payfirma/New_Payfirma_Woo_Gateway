@@ -159,7 +159,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                 // camelCases instead dash-separated CSS attributes  
                 style: {
                     input: {
-                            "color": "#ff0000",
+                            "color": "#000000",
                             "backgroundColor": "#ffffff",
                     }
                 } 
@@ -475,7 +475,7 @@ class WC_Gateway_Payfirma extends WC_Payment_Gateway
                         // camelCases instead dash-separated CSS attributes  
                         style: {
                             input: {
-                                    "color": "#ff0000",
+                                    "color": "#000000",
                                     "backgroundColor": "#ffffff",
                             }
                         } 
